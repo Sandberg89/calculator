@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+}
+
+.display {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    width: 300px;
+    height: 25px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    width: 300px;
+}
+
+.btn {
+    flex: 1;
+    margin-bottom: 5px;
+}
